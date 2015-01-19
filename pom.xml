@@ -18,7 +18,7 @@
                 <configuration>
                     <failOnMissingWebXml>false</failOnMissingWebXml>
                      <directory>${project.basedir}</directory>
-                     <outputDirectory>${project.build.directory}</outputDirectory>
+                     <outputDirectory>${project.basedir}</outputDirectory>
                 </configuration>
             </plugin>
         </plugins>
