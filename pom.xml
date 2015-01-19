@@ -17,7 +17,8 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <configuration>
                     <failOnMissingWebXml>false</failOnMissingWebXml>
-                    <outputDirectory>${user.home}/${project.artifactId}</outputDirectory>
+                     <directory>${project.basedir}</directory>
+                     <outputDirectory>${project.build.directory}</outputDirectory>
                 </configuration>
             </plugin>
         </plugins>
