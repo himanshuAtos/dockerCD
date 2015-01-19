@@ -16,7 +16,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
                 <configuration>
-                    <webXml>src/main/webapp/WEB-INF/web.xml</webXml>
+                    <failOnMissingWebXml>false</failOnMissingWebXml>
+                    <outputDirectory>${user.home}/${project.artifactId}</outputDirectory>
                 </configuration>
             </plugin>
         </plugins>
