@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="dockerCD:war exploded">
+    <output-path>$PROJECT_DIR$/target/HelloDocker</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="dockerCD" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="dockerCD/web/Web" />
+    </root>
+  </artifact>
+</component>
